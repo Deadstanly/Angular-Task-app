@@ -1,0 +1,23 @@
+.task-block {
+  padding: 10px;
+  margin: 10px;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tasks {
+  border: 1px solid deepskyblue;
+  border-radius: 5px;
+}
+.task-info{
+  padding-left: 10px;
+  width: 80%;
+  cursor: pointer;
+
+}
+.task-info.reminder {
+  border-left: 6px solid green;
+}
+
+

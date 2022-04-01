@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Learn Html",
+      "day": "01.01.22",
+      "reminder": false
+    },
+    {
+      "text": "Learn CSS",
+      "day": "01.02.22",
+      "reminder": false,
+      "id": "WwyNkys"
+    },
+    {
+      "text": "Learn JS",
+      "day": "01.03.22",
+      "reminder": false,
+      "id": "A0OuJJd"
+    },
+    {
+      "text": "Learn Angular",
+      "day": "01.04.22",
+      "reminder": false,
+      "id": "ne_FQF_"
+    }
+  ]
+}

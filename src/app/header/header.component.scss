@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid deepskyblue;
+  border-radius: 5px;
+  padding: 25px;
+
+  .btn-add {
+    &:hover {
+      background-color: deepskyblue;
+    }
+  }
+}
+
+

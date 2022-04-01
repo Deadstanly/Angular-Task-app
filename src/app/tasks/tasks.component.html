@@ -1,0 +1,14 @@
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+
+<div class="tasks">
+  <div class="task-block left-align" *ngFor="let task of tasks">
+   <div (dblclick)="onToggle(task)"  [ngClass]="{reminder: task.reminder}" class="task-info">
+     <p><b>{{task.text}}</b></p>
+     <hr>
+     <p>{{task.day}}</p>
+   </div>
+    <div class="task-close">
+      <button (click)="deleteTask(task)" class="btn-floating btn-small btn-close waves-effect waves-light">&#10008;</button>
+    </div>
+  </div>
+</div>

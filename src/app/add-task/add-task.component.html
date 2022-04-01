@@ -1,0 +1,13 @@
+<div *ngIf="showAddTask" class="form-block">
+  <form (ngSubmit)="onSubmit()">
+    <div class="input-field">
+      <input placeholder="Add Task" name="text" [(ngModel)]="text" id="text">
+    </div>
+    <div class="input-field">
+      <input placeholder="Day & Time" name="date" [(ngModel)]="day" id="day">
+    </div>
+    <div class="input-field">
+      <input type="submit" value="Save Task" class="btn">
+    </div>
+  </form>
+</div>
